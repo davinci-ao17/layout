@@ -1,0 +1,136 @@
+body {
+	margin: 0px;
+}
+
+header {
+	background-color: limegreen;
+	text-align: center;
+	width: 900px;
+	height: 207px;
+	margin: auto;
+}
+
+ul {
+	background-color: white;
+	border: 2px solid black;
+}
+
+li {
+	display: inline;
+	list-style: none;
+	font-size: 120%;
+	padding: 20px;
+}	
+
+li a {
+	text-decoration: none;
+	color: limegreen;	
+}
+
+li a:hover {
+	background-color: limegreen;
+	color: black;
+}
+
+#r6logo {
+	height: 100px;
+	width: 100px;
+}
+
+a {
+	color: limegreen;
+	text-decoration: none;
+}
+
+#homemain {
+	display: -webkit-flex;
+    display: flex;  
+    margin-left: 360px;
+    height: 900px;      
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;  
+    flex-direction: column;
+}
+
+.homeartikel {	
+    width: 350px;
+    height: 400px;   
+    padding: 20px;
+    text-align: center;
+}
+
+.homeartikelimg {
+	width: 350px;
+	height: 200px;
+}
+
+.reclameimg {
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+}
+
+.main1 {
+	margin-left: 300px;
+	display: -webkit-flex;
+    display: flex;    
+    height: 900px;      
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;  
+    flex-direction: column;
+}
+
+.artikel {
+	width: 900px;	
+	text-align: center;
+}
+
+.artikelimg {		
+	width: 700px;
+	height: 350px;
+}
+
+.artikel1 {
+	height: 200px;
+	width: 900px;
+	margin: auto;
+	text-align: center;
+}
+
+.artikelimg1 {
+	width: 350px;
+	height: 200px;
+	float: left;
+}
+
+#aside1 {
+	border-left: 2px solid limegreen;	
+}
+
+#aside2 {
+	border-left: 2px solid limegreen;	
+	height: 650px;	
+}
+
+footer {
+	background-color: lightgrey;
+	height: 100px;	
+	width: 900px;
+	margin: auto;
+	margin-top: 100px;
+}
+
+#copy {
+	padding-top: 20px;
+	padding-left: 600px;
+}
+
+.impact {
+	margin: 0px;
+	font-family: Impact;
+}
+
+p, h1, h3, h4 {
+	font-family: sans-serif;	
+}
+
