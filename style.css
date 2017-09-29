@@ -1,0 +1,159 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: tomato;
+	font-family: arial;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    display: block;
+    text-align: left;
+    height: 50px;
+    padding-left: 20%;
+}
+
+li {
+	display: inline;
+	padding-left: 250px;
+	line-height: 50px;
+}
+
+li a {
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #FFB100;
+}
+
+#afbeelding {
+	float: right;
+	margin: 6px;
+}
+
+#afbeelding0 {
+	padding-left: 100px;
+	height: 100px;
+}
+
+#afbeelding1 {
+	height: 300px;
+	width: 500px;
+}
+
+#afbeelding2 {
+	height: 300px;
+	width: 500px;
+}
+
+#afbeelding3 {
+	height: 300px;
+	width: 500px;
+}
+
+#afbeelding4 {
+	height: 300px;
+	width: 500px;
+}
+
+#afbeelding5 {
+	height: 300px;
+	width: 500px; 
+}
+
+#afbeelding6 {
+	height: 300px;
+	width: 500px;
+}
+
+#afbeelding7 {
+	float: left;
+	width: 50%;
+	height: 50%;
+	margin: 6px;
+}
+
+#afbeelding8 {
+	float: left;
+}
+
+#afbeelding9 {
+	float: right;
+	width: 50%;
+	margin: 9px;
+}
+
+#afbeelding10 {
+	float: left;
+	margin: 15px;
+	width: 50%;
+}
+
+#afbeelding11 {
+	float: right;
+	margin: 8px;
+}
+
+#afbeelding12 {
+	margin: 5px;
+}
+
+h1 {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+header {
+
+	width: 100%;
+	display: block;	
+}
+
+h1 {
+	align-content: center;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+	padding-left: 550px;
+}
+
+.item {
+	width: 520px;
+	height: 380px;
+}
+
+aside {
+	padding-left: 10px;
+	display: block;
+	width: 10px;
+	float: left;
+	padding-top: 30px;
+}
+
+.tekst {
+	padding-left: 560px; 
+	padding-top: 10px;
+	width: 500px;
+}
+
+footer {
+    position: fixed;
+    bottom: 2px;
+    left: 2px;
+}
