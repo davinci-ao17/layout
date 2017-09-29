@@ -1,0 +1,108 @@
+body {
+	background-color: #9d9d9d !important;
+	font-family: Helvetica !important;
+}
+
+span.headerTitleS {
+	color: #99004d;
+	font-weight: bold;
+}
+
+::selection {
+	background: #99004d;
+}
+
+#articles {
+	background-color: white;
+	width: 75%;
+	margin-left: 12%;
+}
+
+#articles > p, h1, h2, h3 {
+	padding: 10px;
+}
+
+#articles > img {
+	padding: 10px;
+}
+
+#articles > hr {
+	border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.navbar > a {
+	text-decoration: none !important;
+	padding-right: 10px;
+	font-size: 115%;
+	font-weight: bold;
+	color: grey;
+}
+
+.navbar > ul {
+	padding-top: 12px;
+	padding-left: 11.9%;
+}
+
+.navbar > a:hover {
+	color: #99004d !important;
+}
+
+nav {
+	background-color: white;
+	width: 100%;
+	height: 40px;
+	border: none !important;
+	border-radius: 0px !important;
+}
+
+.navBrand {
+	padding-right: 18px !important;
+}
+
+footer {
+	background-color: #333;
+	width: 100%;
+	height: 300px;
+	margin-top: 1%;
+}
+
+main {
+	margin-top: 4.5%;
+}
+
+div.extrapost-one {
+	border-right: 1px solid black;
+	width: 18%;
+	height: 250px;
+}
+
+div.extrapost-last {
+	width: 18%;
+	height: 250px;	
+}
+
+div.extrapost-one > img {
+	padding: 10px;
+	width: 100%;
+}
+
+div.extrapost-one > h5 {
+	margin-left: 10px;
+	margin-top: -5px;
+	font-weight: bold;
+}
+
+div.extrapost-last > h5 {
+	margin-left: 10px;
+	margin-top: -5px;
+	font-weight: bold;
+}
+
+.extrapostOne {
+	display: flex;
+}
+
+iframe.ytvideo {
+	padding: 10px;
+	float: left;
+}
