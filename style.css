@@ -129,7 +129,6 @@ h1 {
 .container {
 	display: flex;
 	flex-wrap: wrap;
-	width: 1050px;
 	height: 300px;
 	padding-left: 550px;
 }
