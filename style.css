@@ -8,10 +8,6 @@ body {
 	font-family: arial;
 }
 
-header {
-	display: block;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -21,7 +17,6 @@ ul {
     text-align: left;
     height: 50px;
     padding-left: 20%;
-    overflow: hidden;
 }
 
 li {
@@ -38,6 +33,11 @@ li a {
 
 li a:hover {
     background-color: #FFB100;
+}
+
+#afbeelding {
+	float: right;
+	margin: 6px;
 }
 
 #afbeelding0 {
@@ -75,6 +75,37 @@ li a:hover {
 	width: 500px;
 }
 
+#afbeelding7 {
+	float: left;
+	width: 50%;
+	height: 50%;
+	margin: 6px;
+}
+
+#afbeelding8 {
+	float: left;
+}
+
+#afbeelding9 {
+	float: right;
+	width: 50%;
+}
+
+#afbeelding10 {
+	float: left;
+	margin: 15px;
+	width: 50%;
+}
+
+#afbeelding11 {
+	float: right;
+	margin: 8px;
+}
+
+#afbeelding12 {
+	margin: 5px;
+}
+
 h1 {
 	display: inline;
 }
@@ -82,7 +113,6 @@ h1 {
 a {
 	text-decoration: none;
 	color: white;
-	padding-bottom: 100px;
 }
 
 header {
@@ -98,7 +128,6 @@ h1 {
 .container {
 	display: flex;
 	flex-wrap: wrap;
-	padding-top: 100px;
 	width: 1050px;
 	height: 300px;
 	padding-left: 550px;
@@ -107,12 +136,6 @@ h1 {
 .item {
 	width: 520px;
 	height: 380px;
-}
-
-footer { 
-    padding-left: 550px;
-    height: 100px;
-    padding-top: 500px;
 }
 
 aside {
@@ -124,6 +147,13 @@ aside {
 }
 
 .tekst {
-	padding-left: 550px; 
+	padding-left: 560px; 
 	padding-top: 10px;
+	width: 500px;
+}
+
+footer {
+    position: fixed;
+    bottom: 2px;
+    left: 2px;
 }
