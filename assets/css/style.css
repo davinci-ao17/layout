@@ -39,7 +39,7 @@ span.headerTitleS {
 }
 
 .navbar > ul {
-	padding-top: 12px;
+	padding-top: 3px;
 	padding-left: 11.9%;
 }
 
@@ -53,10 +53,6 @@ nav {
 	height: 40px;
 	border: none !important;
 	border-radius: 0px !important;
-}
-
-.navBrand {
-	padding-right: 18px !important;
 }
 
 footer {
@@ -105,4 +101,33 @@ div.extrapost-last > h5 {
 iframe.ytvideo {
 	padding: 10px;
 	float: left;
+}
+
+img.ad-left {
+	width: 125px;
+	float: left;
+	margin-left: 15px;
+}
+
+div.newsArticle {
+	border: 2px solid black;
+	flex: 2;
+	margin-top: 10px;
+}
+
+div.newsArticle > img, a {
+	padding: 10px;
+	float: left;
+}
+
+div.newsArticle > h3 {
+	margin-top: 0px;
+}
+
+#newsArticles {
+	display: flex;
+}
+
+#newsArticles2 {
+	display: flex;
 }
